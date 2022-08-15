@@ -19,9 +19,7 @@ body {
 }
 
 h1,
-h3,
-h5,
-h6 {
+h3 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   color: black;
@@ -54,12 +52,6 @@ p {
   padding: 160px 100px;
 }
 
-.hero p {
-  font-size: 36px;
-  font-weight: 500;
-  margin: 5px;
-}
-
 .hero h2 {
   font-size: 26px;
   font-weight: 500;
@@ -67,8 +59,10 @@ p {
   margin: 5px;
 }
 
-.content-container {
-  padding: 160px 100px;
+.hero h5 {
+  font-size: 36px;
+  font-weight: 500;
+  margin: 5px;
 }
 
 .content {
@@ -184,7 +178,8 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 900px) {
-  h1 {
+  h1,
+  .content h1 {
     font-size: 44px;
     line-height: 56px;
   }
@@ -202,7 +197,7 @@ footer .social-links a:hover {
     padding: 80px 20px;
   }
 
-  .hero p {
+  .hero h5 {
     font-size: 32px;
   }
 
