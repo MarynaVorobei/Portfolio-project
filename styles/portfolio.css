@@ -169,6 +169,20 @@ footer .social-links a:hover {
   background-color: var(--secondary-color);
 }
 
+.copyright {
+  color: var(--heading-color);
+  font-size: 12px;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: var(--heading-color);
+}
+
+.copyright a:hover {
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -195,6 +209,10 @@ footer .social-links a:hover {
   .content-container {
     text-align: center;
     padding: 40px 20px;
+  }
+
+  .content p {
+    font-size: 14px;
   }
 
   .project-description {
