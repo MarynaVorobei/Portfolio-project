@@ -21,13 +21,12 @@ body {
 h1,
 h3 {
   font-family: var(--heading-font-family);
+  color: var(--heading-color);
   font-weight: bold;
-  color: black;
 }
 
 h1 {
   font-size: 88px;
-  color: var(--heading-color);
   line-height: 1.5;
 }
 
@@ -37,8 +36,7 @@ h2 {
 
 h3 {
   font-size: 46px;
-  color: var(--heading-color);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 p {
@@ -49,7 +47,7 @@ p {
 
 .hero {
   background-color: var(--secondary-color);
-  padding: 160px 100px;
+  padding: 100px 100px 60px;
 }
 
 .hero h2 {
@@ -98,12 +96,6 @@ p {
   font-size: 18px;
   line-height: 1.5;
   padding: 18px 30px;
-}
-
-.featured-content {
-  border-bottom-color: var(--heading-color);
-  border-bottom-style: solid;
-  border-bottom-width: thin;
 }
 
 .logo {
@@ -193,7 +185,7 @@ footer .social-links a:hover {
 
   .hero {
     text-align: center;
-    padding: 80px 20px;
+    padding: 80px 20px 10px;
   }
 
   .hero h5 {
