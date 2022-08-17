@@ -89,6 +89,11 @@ p {
   padding: 18px 30px;
 }
 
+.btn-branding:hover {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -96,6 +101,11 @@ p {
   font-size: 18px;
   line-height: 1.5;
   padding: 18px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
 }
 
 .logo {
@@ -166,6 +176,27 @@ footer .social-links a:hover {
 
 .copyright a:hover {
   color: var(--branding-color);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: var(--secondary-color);
+  background-clip: padding-box;
+  border: 1px solid var(--secondary-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 900px) {
